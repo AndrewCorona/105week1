@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Fashion Pet</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/6da635e2db.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/jumbotron/">
+</head>
+<body>
+
+ 
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="register.html">Register <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="services.html">Services <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+
+    <main id="register-main" class="container">
+        <h2>Register</h2>
+        <form action="">
+
+            <p id="pPetName" class="form-group">
+            <label for="petName">Name of Pet</label><br>
+            <input type="text" class="form-control" name="petName" id="petName">
+            </p>
+
+            <p>
+            <label for="petAge">Age</label><br>
+            <input type="text" class="form-control" name="petAge" id="petAge">
+            </p>
+
+            <p>
+            <label for="petType">Type of Pet</label><br>
+            <select name="Type" class="form-control" id="petType">
+                <option value="" disabled select>Select a Service</option>
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+                <option value="Bird">Bird</option>
+                </select>
+            </p>
+
+            <p>
+            <label for="petBreed">Breed of Pet</label><br>
+            <input type="text" class="form-control" name="petBreed" id="petBreed">
+            </p>
+
+            <p>
+            <label for="petGender">Gender of Pet</label><br>
+            <input type="text" class="form-control" name="petGender" id="petGender">
+            </p>
+
+            <p>
+                <label for="petPrice">Price</label><br>
+                <input type="number" class="form-control" name="petPrice" id="petPrice">
+                </p>
+
+            <p>
+            <label for="petService">Type of Service</label><br>
+            <select name="services" class="form-control" id="petService">
+                <option value="" disabled select>Select a Service</option>
+                <option value="Shower">Shower</option>
+                <option value="Hair Cut">Hair Cut</option>
+                <option value="Nail Cut">Nail Cut</option>
+                <option value="Full Service">Full Service</option>
+            </select>
+            </p>
+
+            <p>
+            <label for="ownerName">Name of Owner</label><br>
+            <input type="text" class="form-control" name="ownerName" id="ownerName">
+            </p>
+
+            <p>
+                <label for="DropOff">Drop-Off Date</label><br>
+                <input type="text" class="form-control" name="DropOff" id="DropOff">
+                </p>
+
+            <p>
+            <label for="contactPhone">Phone Number</label><br>
+            <input type="text" class="form-control" name="contactPhone" id="contactPhone">
+            </p>
+
+            <input id="register-btn" type="button" class="btn btn-success" value="Register">
+
+        </form>
+        <div id="petSection">
+        </div>
+        <div id="profits">
+        </div>
+        <p id="test"></p>
+            
+    </main>
+
+    <footer>
+            <p>The Fashion Pet</p>
+            <p>Av. University 245-K 25896, Monday to Fridayfrom 8:00am to 5:00pm</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/directory.js"></script>
+    
+</body>
+</html>

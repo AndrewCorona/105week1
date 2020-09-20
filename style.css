@@ -1,0 +1,22 @@
+.tablechart{
+    display:inline-block;
+    text-align:center;
+}
+.bttn{
+    display: inline-block;
+    padding:10px 20px;
+}
+#table{
+display:block;
+margin-top:20px;
+}
+th,td{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#petSection{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+
